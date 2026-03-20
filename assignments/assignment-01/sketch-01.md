@@ -48,6 +48,6 @@ Three different board configurations represented by the class `BoardConf` can be
 
 The configutation is set when configuring the board, before starting the simulation loop. 
 
-**FOCUS POINT** you should see a good frame rate for the minimal and large, but poor for the massive configuration. A concurrent version of the program could be useful to improve this.
+**FOCUS POINT**: the minimal and large configuration typically shows a good frame rate - higher than 25 frame per second (fps) - with current PCs. Instead, the massive configuration in this implementation typically has a poor frame rate (less that 20 fps). A concurrent version of the program could be useful to improve this.
 
 
